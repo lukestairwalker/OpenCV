@@ -1,4 +1,6 @@
-# Corner Detection Algorithms in Python
+# OpenCV:Corner Detection Algorithms in Python
+
+## my goal: learn python (numpy, pandas, OpenCV) with a focus on robotic applications
 
 This project implements classic corner detection algorithms such as:
 
