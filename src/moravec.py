@@ -14,4 +14,4 @@ def moravec_corner_detection(img_gray, window_size=3, threshold=10000):
             corners += cv2.boxFilter(ssd, -1, (window_size, window_size))
 
     corners[corners < threshold] = 0
-    return corners#
+    return corners
