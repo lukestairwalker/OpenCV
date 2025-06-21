@@ -9,4 +9,4 @@ This project implements classic corner detection algorithms such as:
 
 ## Usage
 
-Run the notebook `cornerdetectors.ipynb` to see the detectors in action.
+Run the notebook `corner_detector.ipynb` to see the detectors in action.
