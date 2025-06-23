@@ -7,6 +7,6 @@ This project implements classic corner detection algorithms such as:
 - [Moravec Corner Detector](https://mahendrathapa.medium.com/moravec-corner-detector-5191f1c04b30)
 - [Harris Corner Detector](https://docs.opencv.org/2.4/doc/tutorials/features2d/trackingmotion/harris_detector/harris_detector.html)
 - [FAST](https://docs.opencv.org/4.x/df/d0c/tutorial_py_fast.html)
-## Usage
+## How to use this project?
 
-Run the notebook `corner_detector.ipynb` to see the detectors in action.
+Open the notebook `corner_detector.ipynb` to see the detectors in action.
