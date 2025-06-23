@@ -13,6 +13,9 @@ This project implements classic corner detection algorithms such as:
 - MSER: Maximally Stable Extremal Regions
 - BRIEF: Binary Robust Independent Elementary Features
 - ORB:Oriented FAST and Rotated BRIEF
+
+- Nearest Neighbors
+- RANSAC 
   
 ## How to use this project?
 
