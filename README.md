@@ -16,7 +16,8 @@ This project implements classic corner detection algorithms such as:
 
 
 - Nearest Neighbors
-- RANSAC 
+- RANSAC
+- ReLu
   
 ## How to use this project?
 
