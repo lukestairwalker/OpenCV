@@ -4,8 +4,8 @@
 
 This project implements classic corner detection algorithms such as:
 
-- Moravec Corner Detector
-- Harris Corner Detector (coming soon)
+[- Moravec Corner Detector
+](https://docs.opencv.org/2.4/doc/tutorials/features2d/trackingmotion/harris_detector/harris_detector.html)- Harris Corner Detector (coming soon)
 
 ## Usage
 
