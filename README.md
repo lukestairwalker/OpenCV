@@ -15,11 +15,6 @@ This project implements classic corner detection algorithms such as:
 - BRIEF: Binary Robust Independent Elementary Features
 - ORB:Oriented FAST and Rotated BRIEF
 
-
-- Nearest Neighbors
-- RANSAC
-- ReLu
-
 ## Filter
 - Sobel
 - LaPlace
@@ -29,6 +24,11 @@ This project implements classic corner detection algorithms such as:
 #### Filter combinations
 
 - Laplacian of Gaussian (LoG) = Laplace after Gauss
+
+  ## other
+- Nearest Neighbors (kNN)
+- RANSAC
+- ReLu
   
 ## How to use this project?
 
