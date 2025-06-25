@@ -16,6 +16,7 @@ This project implements classic corner detection algorithms such as:
 - ORB:Oriented FAST and Rotated BRIEF
 
 ## Filter
+Using convolution with a filter on a grayscale image, you can detect corners in an image. The value which is displayed in a grayscale image is the intensity (Helligkeit).
 - Sobel
 - LaPlace
 - Gaussian → smoothing
@@ -25,7 +26,7 @@ This project implements classic corner detection algorithms such as:
 
 - Laplacian of Gaussian (LoG) = Laplace after Gauss
 
-  ## other
+## other
 - Nearest Neighbors (kNN)
 - RANSAC
 - ReLu
