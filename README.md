@@ -51,6 +51,9 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 - K: camera calibration matrix
 - resolution
 - distance to object
+
+## More complex algorithms
+- [SLAM](https://www.youtube.com/watch?v=saVZtgPyyJQ) 
 ## How to use this project?
 
 Open the notebook `corner_detector.ipynb` to see the detectors in action.
