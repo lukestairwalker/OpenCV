@@ -22,7 +22,7 @@ How the Matching works:
 3. To calculate the similarity of two descriptors (from two images), you calculate the distance between the vectors (e.g. euclidian distance for SIFT, SURF & Hamming distance for binary descriptors from ORB, BRIEF).  
 
 ## Filter
-Using convolution with a filter on a grayscale image, you can detect corners in an image. The value which is displayed in a grayscale image is the intensity (Helligkeit).
+Using convolution with a filter on a grayscale image, you can detect edges in an image. The value which is displayed in a grayscale image is the intensity (Helligkeit).
 - Sobel
 - LaPlace
 - Gaussian → smoothing
