@@ -18,6 +18,16 @@ This project implements classic corner detection algorithms such as:
 - Nearest Neighbors
 - RANSAC
 - ReLu
+
+## Filter
+- Sobel
+- LaPlace
+- Gaussian → smoothing
+- Canny
+
+### Filter combinations
+
+- Laplacian of Gaussian (LoG) = Laplace after Gauss
   
 ## How to use this project?
 
