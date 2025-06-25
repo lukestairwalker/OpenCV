@@ -2,7 +2,7 @@
 
 #### my goal: learn python (numpy, pandas, OpenCV) with a focus on robotic applications
 
-## Corner Detection Algorithms
+## Edge & Corner Detection
 This project implements classic corner detection algorithms such as:
 
 - [Moravec Corner Detector](https://mahendrathapa.medium.com/moravec-corner-detector-5191f1c04b30)
@@ -59,6 +59,12 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 ## More complex algorithms
 - [SLAM](https://www.youtube.com/watch?v=saVZtgPyyJQ)
 - Kalman
+
+# Depth Perception
+- Stereo Vision
+- Time of flight
+- structured light
+  
 ## How to use this project?
 
 Open the notebook `corner_detector.ipynb` to see the detectors in action.
