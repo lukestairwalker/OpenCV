@@ -6,7 +6,7 @@
 This project implements classic corner detection algorithms such as:
 
 - [Moravec Corner Detector](https://mahendrathapa.medium.com/moravec-corner-detector-5191f1c04b30)
-- [Harris Corner Detector](https://docs.opencv.org/2.4/doc/tutorials/features2d/trackingmotion/harris_detector/harris_detector.html)
+- [Harris Corner Detector](https://docs.opencv.org/2.4/doc/tutorials/features2d/trackingmotion/harris_detector/harris_detector.html) 
 
 ### Feature- or Descriptor-Matching
 - [FAST: Features from Accelerated Segment Test](https://docs.opencv.org/4.x/df/d0c/tutorial_py_fast.html)
@@ -34,7 +34,6 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 - Sobel → first derivative of the image (detects edges; partial derivative in x and y direction → sobel_x filter for vertical edges and sobel_y for horizontal edges)
 - LaPlace → second derivative of the image (detects strong changes in intensity → often edges or corners)
 - Gaussian → smoothing with a gaussian function
-- Kalman
   
 #### Filter combinations
 
@@ -58,7 +57,8 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 - distance to object
 
 ## More complex algorithms
-- [SLAM](https://www.youtube.com/watch?v=saVZtgPyyJQ) 
+- [SLAM](https://www.youtube.com/watch?v=saVZtgPyyJQ)
+- Kalman
 ## How to use this project?
 
 Open the notebook `corner_detector.ipynb` to see the detectors in action.
