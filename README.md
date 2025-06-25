@@ -16,6 +16,7 @@ This project implements classic corner detection algorithms such as:
 - BRIEF: Binary Robust Independent Elementary Features
 - ORB:Oriented FAST and Rotated BRIEF
 
+How the Matching works:
 1. Features (keypoints) like corners or edges are detected.
 2. For every keypoint a descriptor is calculated (a descriptor is often a vector)
 3. To calculate the similarity of two descriptors (from two images), you calculate the distance between the vectors (e.g. euclidian distance for SIFT, SURF & Hamming distance for ORB, BRIEF).  
