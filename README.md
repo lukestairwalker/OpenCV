@@ -10,7 +10,7 @@ This project implements classic corner detection algorithms such as:
 
 ### Feature- or Descriptor-Matching
 - [FAST: Features from Accelerated Segment Test](https://docs.opencv.org/4.x/df/d0c/tutorial_py_fast.html)
-- SIFT
+- SIFT: Scale-invariant feature transform
 - SURF: Speeded Up Robust Features
 - MSER: Maximally Stable Extremal Regions
 - BRIEF: Binary Robust Independent Elementary Features
