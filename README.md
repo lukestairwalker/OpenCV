@@ -31,10 +31,10 @@ Similar to the feature / descriptor matching, you try to match two very similar 
 
 ## Filter
 Using convolution with a filter on a grayscale image, you can detect edges in an image. The value which is displayed in a grayscale image is the intensity (Helligkeit).
-- Sobel
-- LaPlace
-- Gaussian → smoothing
-- Canny
+- Sobel → first derivative of the image (detects edges; partial derivative in x and y direction → sobel_x filter for vertical edges and sobel_y for horizontal edges)
+- LaPlace → second derivative of the image (detects strong changes in intensity → often edges or corners)
+- Gaussian → smoothing with a gaussian function
+- Canny →
 - Kalman
   
 #### Filter combinations
