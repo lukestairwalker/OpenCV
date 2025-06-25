@@ -19,7 +19,15 @@ This project implements classic corner detection algorithms such as:
 How the Matching works:
 1. Features (keypoints) like corners or edges are detected.
 2. For every keypoint a descriptor is calculated (a descriptor describes the local surrounding of its feature. This is useful if the camera moved, the image was rotated or scaled. A descriptor is most often a vector)
-3. To calculate the similarity of two descriptors (from two images), you calculate the distance between the vectors (e.g. euclidian distance for SIFT, SURF & Hamming distance for binary descriptors from ORB, BRIEF).  
+3. To calculate the similarity of two descriptors (from two images), you calculate the distance between the vectors (e.g. euclidian distance for SIFT, SURF & Hamming distance for binary descriptors from ORB, BRIEF).
+
+### Template Matching
+- Sum of Absolute Differences (SAD)
+- Sum of Squared Differences (SSD)
+- Normalized Cross-Correlation (NCC)
+
+How the Matching works:
+Similar to the feature / descriptor matching, you try to match two very similar imagepatches (Pixelblöcke) with each other. But instead of detecting a feature, you simply take the template which you want to find in the other image and use a sliding window to scan the whole image for the template.
 
 ## Filter
 Using convolution with a filter on a grayscale image, you can detect edges in an image. The value which is displayed in a grayscale image is the intensity (Helligkeit).
