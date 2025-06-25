@@ -61,12 +61,13 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 - Kalman
 
 # Depth Perception
-- Stereo Vision
+- [Stereo Vision](https://www.youtube.com/watch?v=6kpBqfgSPRc)
 - Time of flight
 - structured light
 
 Stereo Vison: Two cameras are used to calculate the depth of an object in an image. The math behind this is called triangulation / epipolar geometry. First you extract the features of both images and try to match them. Then you have two points in the two 2D image coordinate systems. Having only one camera means having only one point in the 2D camera coordinate system. Because of the second camera you can calculate the depth of the feature, because the feature lies on an epipolar line in the second camera. 
-To make this process easier you apply rectification. 
+To make this process easier you apply rectification, which aligns the epipolar lines horizontally. → Essential Matrix is the product of the roation and translation matrix. 
+
 
 ## How to use this project?
 
