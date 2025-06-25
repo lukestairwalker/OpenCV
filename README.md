@@ -26,11 +26,16 @@ Using convolution with a filter on a grayscale image, you can detect corners in 
 
 - Laplacian of Gaussian (LoG) = Laplace after Gauss
 
-## other
+## other algorithms
 - Nearest Neighbors (kNN)
 - RANSAC
 - ReLu
-  
+
+## Parameters of a camera
+- f: focal length
+- disparity
+- K: camera calibration matrix
+- 
 ## How to use this project?
 
 Open the notebook `corner_detector.ipynb` to see the detectors in action.
