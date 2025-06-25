@@ -64,7 +64,10 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 - Stereo Vision
 - Time of flight
 - structured light
-  
+
+Stereo Vison: Two cameras are used to calculate the depth of an object in an image. The math behind this is called triangulation / epipolar geometry. First you extract the features of both images and try to match them. Then you have two points in the two 2D image coordinate systems. Having only one camera means having only one point in the 2D camera coordinate system. Because of the second camera you can calculate the depth of the feature, because the feature lies on an epipolar line in the second camera. 
+To make this process easier you apply rectification. 
+
 ## How to use this project?
 
 For everything described in this README file, there is a more detailed notebook e.g. `corner_detector.ipynb`, which includes more theory and some code to see the detectors in action.
