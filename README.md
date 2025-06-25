@@ -35,7 +35,8 @@ Using convolution with a filter on a grayscale image, you can detect corners in 
 - f: focal length
 - disparity
 - K: camera calibration matrix
-- 
+- resolution
+- distance to object
 ## How to use this project?
 
 Open the notebook `corner_detector.ipynb` to see the detectors in action.
