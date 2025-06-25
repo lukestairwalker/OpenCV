@@ -57,3 +57,5 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 ## How to use this project?
 
 Open the notebook `corner_detector.ipynb` to see the detectors in action.
+
+![alt text](https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=)
