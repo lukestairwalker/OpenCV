@@ -67,7 +67,7 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
   
 ## How to use this project?
 
-Open the notebook `corner_detector.ipynb` to see the detectors in action.
+For everything described in this README file, there is a more detailed notebook e.g. `corner_detector.ipynb`, which includes more theory and some code to see the detectors in action.
 
 ![alt text](https://github.com/lukestairwalker/OpenCV/blob/main/images/flower.jpg)
 
