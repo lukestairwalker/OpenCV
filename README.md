@@ -35,7 +35,8 @@ Using convolution with a filter on a grayscale image, you can detect edges in an
 - LaPlace
 - Gaussian → smoothing
 - Canny
-
+- Kalman
+  
 #### Filter combinations
 
 - Laplacian of Gaussian (LoG) = Laplace after Gauss
