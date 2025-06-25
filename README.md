@@ -1,6 +1,6 @@
 # OpenCV: image recognition & feature detection in Python
 
-### my goal: learn python (numpy, pandas, OpenCV) with a focus on robotic applications
+#### my goal: learn python (numpy, pandas, OpenCV) with a focus on robotic applications
 
 ## Corner Detection Algorithms
 This project implements classic corner detection algorithms such as:
@@ -26,7 +26,7 @@ This project implements classic corner detection algorithms such as:
 - Gaussian → smoothing
 - Canny
 
-### Filter combinations
+#### Filter combinations
 
 - Laplacian of Gaussian (LoG) = Laplace after Gauss
   
