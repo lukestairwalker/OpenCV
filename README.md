@@ -1,6 +1,7 @@
 # OpenCV: image recognition & feature detection in Python
 
 #### my goal: learn python (numpy, pandas, OpenCV) with a focus on robotic applications
+This project goes along to the course Automotive Vision from KIT. A good summary of this course can be found here: [Studydrive](https://www.studydrive.net/de/doc/zusammenfassung-h20/912259)
 
 ## Edge & Corner Detection
 This project implements classic corner detection algorithms such as:
