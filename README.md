@@ -2,6 +2,9 @@
 
 #### my goal: learn python (numpy, pandas, OpenCV) with a focus on robotic applications
 This project goes along to the course Automotive Vision from KIT. A good summary of this course can be found here: [Studydrive](https://www.studydrive.net/de/doc/zusammenfassung-h20/912259)
+A lot of good Computer Vision Content is provided by the youtube Channel First Principles of Computer Vision. 
+- [Edge Detection Playlist](https://youtube.com/playlist?list=PL2zRqk16wsdqXEMpHrc4Qnb5rA1Cylrhx&si=iEJR1xMCJJjKEdBF)
+- [Stereo Vision and camera calibration playlist](https://www.youtube.com/watch?v=S-UHiFsn-GI&list=PL2zRqk16wsdoCCLpou-dGo7QQNks1Ppzo)
 
 ## Edge & Corner Detection
 This project implements classic corner detection algorithms such as:
